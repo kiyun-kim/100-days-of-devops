@@ -15,9 +15,9 @@
 | 05  | [SELinux 설치 및 영구 비활성화 설정](./challenges/day05.md)    | `Linux`           |   ✅   |
 | 06  | [분산 서버 Crontab 스케줄러 등록](./challenges/day06.md)       | `Linux`           |   ✅   |
 | 07  | [SSH Key 기반 Passwordless 인증 구축](./challenges/day07.md)   | `Linux`           |   ✅   |
-| 08  | [Ansible 설치 및 환경 구성](./challenges/day08.md)             | `Linux``Ansible`  |   ✅   |
+| 08  | [Ansible 설치 및 환경 구성](./challenges/day08.md)             | `Linux`/`Ansible` |   ✅   |
 | 09  | [MariaDB 트러블슈팅 및 서비스 복구](./challenges/day09.md)     | `Linux`           |   ✅   |
-| 10  | [쉘 스크립트 기반 원격 백업 자동화](./challenges/day10.md)     | `Linux``bash`     |   ✅   |
+| 10  | [쉘 스크립트 기반 원격 백업 자동화](./challenges/day10.md)     | `Linux`/`bash`    |   ✅   |
 | 11  | [Tomcat 설치 및 WAR 애플리케이션 배포](./challenges/day11.md)  | `Linux`           |   ✅   |
 | 12  | [Apache 포트 충돌 프로세스 해결](./challenges/day12.md)        | `Linux`           |   ✅   |
 | 13  | IPtables 설치 및 구성                                          | `Firewall`        |   ✅   |
