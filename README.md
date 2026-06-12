@@ -6,29 +6,40 @@
 
 ## 📊 챌린지 진행 현황판
 
-| Day | Topic                                                          | Tech Stack        | Status |
-| :-- | :------------------------------------------------------------- | :---------------- | :----: |
-| 01  | [Linux 사용자 생성 및 그룹 권한 관리](./challenges/day01.md)   | `Linux`           |   ✅   |
-| 02  | [Linux 임시 사용자 계정 및 만료일 설정](./challenges/day02.md) | `Linux`           |   ✅   |
-| 03  | [Root SSH 직접 로그인 차단](./challenges/day03.md)             | `Linux`           |   ✅   |
-| 04  | [Linux 권한 관리 및 스크립트 배포](./challenges/day04.md)      | `Linux`           |   ✅   |
-| 05  | [SELinux 설치 및 영구 비활성화 설정](./challenges/day05.md)    | `Linux`           |   ✅   |
-| 06  | [분산 서버 Crontab 스케줄러 등록](./challenges/day06.md)       | `Linux`           |   ✅   |
-| 07  | [SSH Key 기반 Passwordless 인증 구축](./challenges/day07.md)   | `Linux`           |   ✅   |
-| 08  | [Ansible 설치 및 환경 구성](./challenges/day08.md)             | `Linux` `Ansible` |   ✅   |
-| 09  | [MariaDB 트러블슈팅 및 서비스 복구](./challenges/day09.md)     | `Linux`           |   ✅   |
-| 10  | [쉘 스크립트 기반 원격 백업 자동화](./challenges/day10.md)     | `Linux` `bash`    |   ✅   |
-| 11  | [Tomcat 설치 및 WAR 애플리케이션 배포](./challenges/day11.md)  | `Linux`           |   ✅   |
-| 12  | [Apache 포트 충돌 프로세스 해결](./challenges/day12.md)        | `Linux`           |   ✅   |
-| 13  | [IPtables 설치 및 구성 (EL9 환경)](./challenges/day13.md)      | `Linux`           |   ✅   |
-| 14  | [Linux Process 트러블슈팅](./challenges/day14.md)              | `Linux` `bash`    |   ✅   |
-| 15  | Nginx SSL 설정                                                 | `TLS/SSL`         |   ✅   |
-| 16  | Nginx 로드 밸런서 설치 및 구성                                 | `Load Balancing`  |   ✅   |
-| 17  | PostgreSQL 설치 및 구성                                        | `Database`        |   ⏳   |
-| 18  | 데이터베이스 서버 설치 및 구성                                 | `Database`        |   ⏳   |
-| 19  | 웹 애플리케이션 설치 및 구성                                   | `Deployment`      |   ⏳   |
-| 20  | Nginx와 PHP-FPM Unix Socket 구성                               | `Web Stack`       |   ⏳   |
-| 21  | Storage Server에 Git 저장소 구성                               | `Git`             |   ⏳   |
-| 22  | Storage Server에서 Git 저장소 복제                             | `Git`             |   ⏳   |
-| 23  | Git 저장소 Fork                                                | `Git`             |   ⏳   |
-| 24  | Git 브랜치 생성                                                | `Git`             |   ⏳   |
+| Day    | Topic                                                          | Tech Stack        | Status |
+| :----- | :------------------------------------------------------------- | :---------------- | :----: |
+| 01-03  | 사용자 및 보안 설정                                            | :---------------- | :----: |
+| 01     | [Linux 사용자 생성 및 그룹 권한 관리](./challenges/day01.md)   | `Linux`           |   ✅   |
+| 02     | [Linux 임시 사용자 계정 및 만료일 설정](./challenges/day02.md) | `Linux`           |   ✅   |
+| 03     | [Root SSH 직접 로그인 차단](./challenges/day03.md)             | `Linux`           |   ✅   |
+| 04-07  | 리눅스 권한 및 기본 보안                                       | :---------------- | :----: |
+| 04     | [Linux 권한 관리 및 스크립트 배포](./challenges/day04.md)      | `Linux`           |   ✅   |
+| 05     | [SELinux 설치 및 영구 비활성화 설정](./challenges/day05.md)    | `Linux`           |   ✅   |
+| 06     | [분산 서버 Crontab 스케줄러 등록](./challenges/day06.md)       | `Linux`           |   ✅   |
+| 07     | [SSH Key 기반 Passwordless 인증 구축](./challenges/day07.md)   | `Linux`           |   ✅   |
+| 08-11  | 자동화 및 서버 구축                                            | :---------------- | :----: |
+| 08     | [Ansible 설치 및 환경 구성](./challenges/day08.md)             | `Linux` `Ansible` |   ✅   |
+| 09     | [MariaDB 트러블슈팅 및 서비스 복구](./challenges/day09.md)     | `Linux`           |   ✅   |
+| 10     | [쉘 스크립트 기반 원격 백업 자동화](./challenges/day10.md)     | `Linux` `bash`    |   ✅   |
+| 11     | [Tomcat 설치 및 WAR 애플리케이션 배포](./challenges/day11.md)  | `Linux`           |   ✅   |
+| 12-14  | 네트워크 및 프로세스                                           | :---------------- | :----: |
+| 12     | [Apache 포트 충돌 프로세스 해결](./challenges/day12.md)        | `Linux`           |   ✅   |
+| 13     | [IPtables 설치 및 구성 (EL9 환경)](./challenges/day13.md)      | `Linux`           |   ✅   |
+| 14     | [Linux Process 트러블슈팅](./challenges/day14.md)              | `Linux` `bash`    |   ✅   |
+| 15-20  | 웹 서버 및 애플리케이션 환경 구축                              | :---------------- | :----: |
+| 15     | Nginx SSL 설정                                                 | `TLS/SSL`         |   ✅   |
+| 16     | Nginx 로드 밸런서 설치 및 구성                                 | `Load Balancing`  |   ✅   |
+| 17     | PostgreSQL 설치 및 구성                                        | `Database`        |   ⏳   |
+| 18     | 데이터베이스 서버 설치 및 구성                                 | `Database`        |   ⏳   |
+| 19     | 웹 애플리케이션 설치 및 구성                                   | `Deployment`      |   ⏳   |
+| 20     | Nginx와 PHP-FPM Unix Socket 구성                               | `Web Stack`       |   ⏳   |
+| 21-34  | Git 버전 관리 및 협업                                          | :---------------- | :----: |
+| 21     | Storage Server에 Git 저장소 구성                               | `Git`             |   ⏳   |
+| 22     | Storage Server에서 Git 저장소 복제                             | `Git`             |   ⏳   |
+| 23     | Git 저장소 Fork                                                | `Git`             |   ⏳   |
+| 24     | Git 브랜치 생성                                                | `Git`             |   ⏳   |
+| 35-47  | Docker Containerization                                        | :---------------- | :----: |
+| 48-67  | Kubernetes Ochestration                                        | :---------------- | :----: |
+| 68-81  | Jenkins CI/CD 파이프라인 자동화                                | :---------------- | :----: |
+| 82-93  | Ansible 구성 관리 (IaC)                                        | :---------------- | :----: |
+| 94-100 | Terraform & AWS 인프라 자동화                                  | :---------------- | :----: |
