@@ -2,25 +2,23 @@
 
 ### 1. Task
 
----
-
 - **요구사항**:
 
 - **대상**:
 
 - **목표**:
 
-### 2. Workflow
-
 ---
+
+### 2. Workflow
 
 ```text
 
 ```
 
-### 3. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 3. 해결 과정 (Troubleshooting & Action)
 
 #### 3-1.
 
