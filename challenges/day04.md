@@ -8,6 +8,8 @@
 
 - **목표**: 배포된 `/tmp/xfusioncorp.sh` 스크립트에 대해 전체 사용자 실행 권한을 부여하여 자동화 작업이 원활히 수행되도록 설정
 
+---
+
 ### 2. 해결 과정 (Troubleshooting & Action)
 
 #### 2-1. 파일 상태 확인 (Initial Audit)
@@ -40,6 +42,8 @@ ls -l /tmp/xfusioncorp.sh
 ```bash
 -rwxr-xr-x 1 root root 40 Jun 1 2026 /tmp/xfusioncorp.sh
 ```
+
+---
 
 ### 3. 무엇을 배웠는가 (Takeaway)
 

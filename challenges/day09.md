@@ -2,17 +2,15 @@
 
 ### 1. Task
 
----
-
 - **요구사항**: Stratos DC 내 가동 중인 관계형 데이터베이스(MariaDB)의 커넥션 및 런타임 크래시 장애 원인을 분석하고 정상 서비스 상태로 즉시 복구
 
 - **대상**: Stratos DC 내 데이터베이스 서버 노드 (`stdb01`)
 
 - **목표**: 시스템 로그 파일(`journalctl`, `systemctl`)을 역추적하여 프로세스 중단의 근본 원인을 식별하고, 비정상 세션을 정리하거나 유실된 설정 무결성을 복구하여 데이터베이스 엔진의 안정적인 재구동을 완수
 
-### 2. Workflow
-
 ---
+
+### 2. Workflow
 
 ```text
 [Database Server (stdb01)]
@@ -28,9 +26,9 @@
   4. 데이터베이스 엔진 가동 및 포트 소켓 바인딩 검증 (systemctl start / netstat)
 ```
 
-### 3. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 3. 해결 과정 (Troubleshooting & Action)
 
 #### 3-1. 현재 MariaDB 데이터베이스 서비스의 활성화 상태와 에러 코드 1차 조회하기
 
@@ -62,9 +60,9 @@ sudo systemctl start mariadb
 sudo ss -lntp | grep 3306
 ```
 
-### 4. 무엇을 배웠는가 (Takeaway)
-
 ---
+
+### 4. 무엇을 배웠는가 (Takeaway)
 
 - **로그 중심의 트러블슈팅(Log-Driven Troubleshooting)**: 인프라에 장애가 발생했을 때 임의로 서비스를 재시작하는 행위는 상태를 악화시킬 수 있습니다. `systemctl status`와 `journalctl`을 통해 시스템이 남긴 에러 로그를 정밀 분석하는 방법을 배웠습니다.
 

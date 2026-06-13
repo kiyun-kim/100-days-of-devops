@@ -2,17 +2,15 @@
 
 ### 1. Task
 
----
-
 - **요구사항**: xFusionCorp Industries 내 일상적인 반복 업무(Daily Tasks) 자동화 스크립트 배포를 위한 사전 스케줄러 환경 검증
 
 - **대상 인프라**:Stratos DC 내 전체 분산 애플리케이션 서버 3대 (`stapp01`, `stapp02`, `stapp03`)
 
 - **목표**: 전사 배포에 앞서, 모든 인프라 노드에 스케줄러 패키지를 표준화하여 설치하고 샘플 크론잡(Cron Job)을 등록하여 자동화 기능성 테스트를 완수
 
-### 2. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 2. 해결 과정 (Troubleshooting & Action)
 
 Stratos Datacenter의 모든 앱 서버 환경의 일관성(Consistency)을 유지하기 위해 아래 작업을 순차적으로 반복 수행함.
 
@@ -51,9 +49,9 @@ sudo crontab -u root -l
 */5 * * * * echo hello > /tmp/cron_text
 ```
 
-### 3. 무엇을 배웠는가 (Takeaway)
-
 ---
+
+### 3. 무엇을 배웠는가 (Takeaway)
 
 #### 크론 표현식(Cron Expression)과 자동화의 실무적 중요성
 

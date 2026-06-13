@@ -2,8 +2,6 @@
 
 ### 1. Task
 
----
-
 - **요구사항**: 향후 다중 분산 서버 노드들의 구성 관리(Configuration Management) 및 자동화 배포를 원격에서 일괄 제어하기 위해, Control Node 역할을 수행할 Jump Host에 Ansible 패키지를 설치하고 구동 환경을 검증
 
 - **대상**: 인프라 제어 노드 (`Jump Host`)
@@ -28,9 +26,9 @@
   4. 앤서블 엔진 버전 및 파이썬 런타임 환경 검증 (ansible --version)
 ```
 
-### 3. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 3. 해결 과정 (Troubleshooting & Action)
 
 #### 3-1. CentOS/RHEL 환경에서 표준 저장소에 없는 패키지를 가져오기 위해 EPEL(Extra Packages for Enterprise Linux) 저장소 활성화하기
 
@@ -61,9 +59,9 @@ ansible [core 2.x.x]
    python version = 3.x.x ...
 ```
 
-### 4. 무엇을 배웠는가 (Takeaway)
-
 ---
+
+### 4. 무엇을 배웠는가 (Takeaway)
 
 - **오픈소스 구성 관리 도구(Configuration Management)의 도입**: Ansible은 Agentless(대상 서버에 별도의 감시 프로그램을 심지 않는 방식) 아키텍처를 채택하여, 오직 SSH 통신망만 확보되면 수백 대의 서버를 단 한 곳의 Control Node(Jump Host)에서 동시에 제어할 수 있는 효율적인 인프라 자동화의 표준임을 인지했습니다.
 

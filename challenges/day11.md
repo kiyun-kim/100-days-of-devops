@@ -8,9 +8,9 @@
 
 - **목표**: App Server 1에 Apache Tomcat을 설치하고 서비스 포트를 `8084`로 변경한 뒤, Jump Host의 `/tmp/ROOT.war` 파일을 원격 배포 경로로 이관 및 기동하여 최종 베이스 URL 접속 상태를 검증
 
-### 2. Workflow
-
 ---
+
+### 2. Workflow
 
 ```text
 [Jump Host (Control Node)]                  [App Server 1 (stapp01)]
@@ -23,9 +23,9 @@
    [Tomcat 서비스 엔진 가동] ── (5) 로컬 런타임 통신 검증 (curl http://localhost:8084)
 ```
 
-### 3. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 3. 해결 과정 (Troubleshooting & Action)
 
 #### 3-1. App Server 1(`stapp01`)에 접속하여 자바 웹 애플리케이션 구동을 위한 표준 `tomcat` 패키지 설치하기
 
@@ -77,9 +77,9 @@ curl http://localhost:8084
 # <body><h2>Welcome to xFusionCorp Industries!</h2></body></html>
 ```
 
-### 4. 무엇을 배웠는가 (Takeaway)
-
 ---
+
+### 4. 무엇을 배웠는가 (Takeaway)
 
 - **WAR(Web Application Archive) 패키징과 자동 배포 원리**: 자바 웹 애플리케이션을 구성하는 수많은 소스 코드, 클래스 파일, 이미지 자원들을 단 하나의 압축 팩(`.war`)으로 묶어 배포하는 표준 아키텍처를 이해했습니다. 톰캣 엔진은 구동 시 `webapps` 폴더에 위치한 `.war` 파일을 탐지하여 스스로 압축을 해제하고 주소창을 통해 접근 가능한 라이브 웹사이트로 전개하는 자동화 메커니즘을 가졌음을 배웠습니다.
 

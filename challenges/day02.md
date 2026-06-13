@@ -2,8 +2,6 @@
 
 ### 1. Task
 
----
-
 - **요구사항**: Nautilus 프로젝트의 임시 배정 개발자(`kareem`)를 위한 제한된 기간의 액세스 계정 생성
 
 - **대상 서버**: Stratos Datacenter의 **App Sever 3**
@@ -12,9 +10,9 @@
   - 사용자명은 소문자 `kareem`으로 생성
   - 계정 만료일을 `2027-04-15`로 설정
 
-### 2. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 2. 해결 과정 (Troubleshooting & Action)
 
 #### 2-1. App Server 3 접속
 
@@ -52,9 +50,9 @@ Maximum number of days between password change		: 99999
 Number of days of warning before password expires	: 7
 ```
 
-### 3. 무엇을 배웠는가 (Takeaway)
-
 ---
+
+### 3. 무엇을 배웠는가 (Takeaway)
 
 #### 최소 권한 원칙과 계정 수명 주기 관리 (Identity Lifecycle Management)
 

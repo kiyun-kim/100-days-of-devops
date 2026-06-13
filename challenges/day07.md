@@ -2,17 +2,15 @@
 
 ### 1. Task
 
----
-
 - **요구사항**: 보안 강화 및 배포 자동화 스크립트 운영을 위해 Jump Host에서 App Server 1(`stapp01`)로 접속 시, 매번 비밀번호를 입력하지 않고 안전하게 다이렉트로 로그인할 수 있는 SSH Key 인증 환경 구현
 
 - **대상**: `Jump Host` 및 Stratos DC 내 `App Server 1 (stapp01 - tony 유저 계정)`
 
 - **목표**: Jump Host에서 비대칭 암호화 방식의 SSH 키 쌍(Key Pair)을 생성하고, 이를 App Server 1에 안전하게 복사/등록하여 패스워드 입력 절차 없이 단 한 번의 명령어로 원격 세션 진입을 완수
 
-### 2. Workflow
-
 ---
+
+### 2. Workflow
 
 ```text
 [Jump Host (thor)]                                  [App Server 1 (stapp01: tony)]
@@ -26,9 +24,9 @@
   4. 최종 패스워드리스 원격 접속 검증 (ssh tony@stapp01) <───────────────── 인증 통과!
 ```
 
-### 3. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 3. 해결 과정 (Troubleshooting & Action)
 
 #### 3-1. Jump Host 터미널에서 인증에 사용할 SSH 키 쌍(비밀키 & 공개키) 생성하기
 
