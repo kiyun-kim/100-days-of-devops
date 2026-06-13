@@ -2,8 +2,6 @@
 
 ### 1. Task
 
----
-
 - **요구사항**: xFusionCorp Industries 보안 감사(Security Audit) 결과 반영 및 전체 인프라 보안 표준(Security Baseline) 준수
 
 - **대상 인프라**: Startos Datacenter의 모든 App Server (App Server 1, 2, 3)
@@ -13,9 +11,9 @@
 
 - **목표**: 무차별 대입 공격(Brute Force Attack) 및 권한 탈취 리스크를 원천 차단하기 위해 모든 앱 서버의 **Root 계정 직접 SSH 로그인 비활성화**
 
-### 2. 해결 과정 (Troubleshooting & Action)
-
 ---
+
+### 2. 해결 과정 (Troubleshooting & Action)
 
 Stratos Datacenter의 모든 앱서버(`stapp01~03`)에 순차적으로 접근하여 아래의 인프라 요새화(Hardening) 작업을 동일하게 적용함.
 
@@ -51,9 +49,9 @@ sudo systemctl restart sshd
 
 stapp01, stapp02, stapp03 모든 인프라 노드에 누락 없이 동일한 형상 관리 작업을 반복 수행하여 전체 클러스터의 보안 수준을 균일하게 맞춤.
 
-### 3. 무엇을 배웠는가 (Takeaway)
-
 ---
+
+### 3. 무엇을 배웠는가 (Takeaway)
 
 #### 왜 Root SSH 로그인을 차단해야 하는가? (Server Hardening)
 
