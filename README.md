@@ -44,14 +44,14 @@
 
 ### 웹 서버 및 애플리케이션 환경 구축
 
-| Day | Topic                            | Tech Stack       | Status |
-| :-: | :------------------------------- | :--------------- | :----: |
-| 15  | Nginx SSL 설정                   | `TLS/SSL`        |   ✅   |
-| 16  | Nginx 로드 밸런서 설치 및 구성   | `Load Balancing` |   ✅   |
-| 17  | PostgreSQL 설치 및 구성          | `Database`       |   ⏳   |
-| 18  | 데이터베이스 서버 설치 및 구성   | `Database`       |   ⏳   |
-| 19  | 웹 애플리케이션 설치 및 구성     | `Deployment`     |   ⏳   |
-| 20  | Nginx와 PHP-FPM Unix Socket 구성 | `Web Stack`      |   ⏳   |
+| Day | Topic                                                 | Tech Stack       | Status |
+| :-: | :---------------------------------------------------- | :--------------- | :----: |
+| 15  | Nginx 웹 서버 설치 및 자체 서명 SSL 인증서 HTTPS 배포 | `TLS/SSL`        |   ✅   |
+| 16  | Nginx 로드 밸런서 설치 및 구성                        | `Load Balancing` |   ✅   |
+| 17  | PostgreSQL 설치 및 구성                               | `Database`       |   ⏳   |
+| 18  | 데이터베이스 서버 설치 및 구성                        | `Database`       |   ⏳   |
+| 19  | 웹 애플리케이션 설치 및 구성                          | `Deployment`     |   ⏳   |
+| 20  | Nginx와 PHP-FPM Unix Socket 구성                      | `Web Stack`      |   ⏳   |
 
 ### Git 버전 관리 및 협업
 
