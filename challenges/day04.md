@@ -3,7 +3,9 @@
 ### 1. Task
 
 - **요구사항**: xFusionCorp Industries의 백업 자동화를 위한 쉘 스크립트 배포 프로세스
+
 - **대상 인프라**: App Server 2 (`stapp02`)
+
 - **목표**: 배포된 `/tmp/xfusioncorp.sh` 스크립트에 대해 전체 사용자 실행 권한을 부여하여 자동화 작업이 원활히 수행되도록 설정
 
 ### 2. 해결 과정 (Troubleshooting & Action)

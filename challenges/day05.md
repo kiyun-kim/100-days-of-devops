@@ -2,12 +2,19 @@
 
 ### 1. Task
 
+---
+
 - **요구사항**: xFusionCorp Industries 보안 감사에 따른 인프라 표준 보안 엔진(SELinux) 도입 및 사전 환경 검증
+
 - **대상 인프라**: App Server 3 (`stapp03`)
+
 - **목표**: 전사적인 SELinux 적용에 앞서, 애플리케이션 호환성 테스트를 위해 **패키지 설치 후 시스템을 안전하게 영구 비활성화(disabled)** 상태로 구성
+
 - **특이사항**: 금일 야간 정기 점검 재부팅(Maintenance Reboot)이 예정되어 있으므로, 런타임 제어가 아닌 **영구 설정 파일 기반의 변경**이 필수적임.
 
 ### 2. 해결 과정 (Troubleshooting & Action)
+
+---
 
 #### 2-1. 패키지 매니저(`yum`)를 통한 SELinux 코어 요소 설치
 
@@ -44,6 +51,8 @@ cat /etc/selinux/config | grep SELINUX=
 ```
 
 ### 3. 무엇을 배웠는가 (Takeaway)
+
+---
 
 #### SELinux의 역할과 실무에서의 트러블슈팅 경험
 

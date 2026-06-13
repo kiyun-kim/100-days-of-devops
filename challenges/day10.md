@@ -2,11 +2,17 @@
 
 ### 1. Task
 
+---
+
 - **요구사항**: App Server 3(`stapp03`) 내부의 특정 웹 서비스 소스 디렉토리를 주기적으로 백업하기 위해, 압축 및 원격 전송 프로세스를 수행하는 쉘 스크립트(`official_archive.sh`) 자동화 구현
+
 - **대상**: App Server 3 (`stapp03`) 및 Storage Server (`ststor01`)
+
 - **목표**: 오타 없는 정확한 스크립트 경로 지정, SSH 공개키 기반의 passwordless 인증 연동, 그리고 백업 대상 서버의 올바른 호스트네임 매핑을 통해 무인 자동 백업 파이프라인 구축을 완수
 
 ### 2. Workflow
+
+---
 
 ```text
 [App Server 3 (stapp03)]                       [Storage Server (ststor01)]
@@ -18,6 +24,8 @@
 ```
 
 ### 3. 해결 과정 (Troubleshooting & Action)
+
+---
 
 #### 3-1. 소스 디렉토리 압축에 필요한 `zip` 유틸리티 패키지 설치하기
 
@@ -56,5 +64,7 @@ chmod +x /scripts/official_archive.sh
 ```
 
 ### 4. 무엇을 배웠는가 (Takeaway)
+
+---
 
 - **자동화의 핵심, 무인(Unattended) 인증**: 백업 스크립트처럼 사람이 없는 백그라운드에서 주기적으로 돌아가는 시스템은 비밀번호 입력 팝업창에서 프로세스가 멈추면 안 됩니다. `ssh-copy-id`를 통한 사전 키 교환으로 암호 입력 단계를 완전히 생략하는 것이 인프라 자동화 엔지니어링의 기본 원리임을 이해했습니다.
