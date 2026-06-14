@@ -47,7 +47,7 @@
 | Day | Topic                                                                          | Tech Stack       | Status |
 | :-: | :----------------------------------------------------------------------------- | :--------------- | :----: |
 | 15  | [Nginx 웹 서버 설치 및 자체 서명 SSL 인증서 HTTPS 배포](./challenges/day15.md) | `TLS/SSL`        |   ✅   |
-| 16  | [Nginx 로드 밸런서 설치 및 구성](./challenges/day16.md)                        | `Load Balancing` |   ✅   |
+| 16  | [Nginx 로드밸런서(LBR) 구축 및 트래픽 부하분산](./challenges/day16.md)         | `Load Balancing` |   ✅   |
 | 17  | [PostgreSQL 설치 및 구성](./challenges/day17.md)                               | `Database`       |   ⏳   |
 | 18  | [데이터베이스 서버 설치 및 구성](./challenges/day18.md)                        | `Database`       |   ⏳   |
 | 19  | [웹 애플리케이션 설치 및 구성](./challenges/day19.md)                          | `Deployment`     |   ⏳   |
