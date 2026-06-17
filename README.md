@@ -50,7 +50,7 @@
 | 16  | [Nginx 로드밸런서(LBR) 구축 및 트래픽 부하분산](./challenges/day16.md)           | `Load Balancing` |   ✅   |
 | 17  | [PostgreSQL 데이터베이스 유저 생성 및 권한 배포](./challenges/day17.md)          | `Database`       |   ✅   |
 | 18  | [MariaDB 패키지 설치 및 신규 데이터베이스·유저 권한 배포](./challenges/day18.md) | `Database`       |   ⏳   |
-| 19  | [웹 애플리케이션 설치 및 구성](./challenges/day19.md)                            | `Deployment`     |   ⏳   |
+| 19  | [Apache 정적 웹사이트 배포 및 원격 데이터 마이그레이션](./challenges/day19.md)   | `Deployment`     |   ⏳   |
 | 20  | [Nginx와 PHP-FPM Unix Socket 구성](./challenges/day20.md)                        | `Web Stack`      |   ⏳   |
 
 ### Git 버전 관리 및 협업
