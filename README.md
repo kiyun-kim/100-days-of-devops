@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 17 / 100일 (17%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 20 / 100일 (20%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -49,9 +49,9 @@
 | 15  | [Nginx 웹 서버 설치 및 자체 서명 SSL 인증서 HTTPS 배포](./challenges/day15.md)   | `TLS/SSL`        |   ✅   |
 | 16  | [Nginx 로드밸런서(LBR) 구축 및 트래픽 부하분산](./challenges/day16.md)           | `Load Balancing` |   ✅   |
 | 17  | [PostgreSQL 데이터베이스 유저 생성 및 권한 배포](./challenges/day17.md)          | `Database`       |   ✅   |
-| 18  | [MariaDB 패키지 설치 및 신규 데이터베이스·유저 권한 배포](./challenges/day18.md) | `Database`       |   ⏳   |
-| 19  | [Apache 정적 웹사이트 배포 및 원격 데이터 마이그레이션](./challenges/day19.md)   | `Deployment`     |   ⏳   |
-| 20  | [Nginx와 PHP-FPM Unix Socket 구성](./challenges/day20.md)                        | `Web Stack`      |   ⏳   |
+| 18  | [MariaDB 패키지 설치 및 신규 데이터베이스·유저 권한 배포](./challenges/day18.md) | `Database`       |   ✅   |
+| 19  | [Apache 정적 웹사이트 배포 및 원격 데이터 마이그레이션](./challenges/day19.md)   | `Deployment`     |   ✅   |
+| 20  | [Configure Nginx + PHP-FPM Using Unix Sock](./challenges/day20.md)               | `Web Stack`      |   ✅   |
 
 ### Git 버전 관리 및 협업
 
