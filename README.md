@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 25 / 100일 (25%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 26 / 100일 (26%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -55,13 +55,14 @@
 
 ### Git 버전 관리 및 협업
 
-| Day | Topic                                                                                    | Tech Stack | Status |
-| :-: | :--------------------------------------------------------------------------------------- | :--------- | :----: |
-| 21  | [Storage 서버 내 중앙 집중형 Git Bare 저장소 구축 및 환경 설정](./challenges/day21.md)   | `Git`      |   ✅   |
-| 22  | [Storage Server에서 Git 저장소 복제](./challenges/day22.md)                              | `Git`      |   ✅   |
-| 23  | [Git 저장소 Fork](./challenges/day23.md)                                                 | `Git`      |   ✅   |
-| 24  | [Storage 서버 내 Git 저장소 신규 브랜치 생성 및 소유권 보안](./challenges/day24.md) 제어 | `Git`      |   ✅   |
-| 25  | [Git Merge Branches](./challenges/day25.md) 제어                                         | `Git`      |   ✅   |
+| Day | Topic                                                                                  | Tech Stack | Status |
+| :-: | :------------------------------------------------------------------------------------- | :--------- | :----: |
+| 21  | [Storage 서버 내 중앙 집중형 Git Bare 저장소 구축 및 환경 설정](./challenges/day21.md) | `Git`      |   ✅   |
+| 22  | [Storage Server에서 Git 저장소 복제](./challenges/day22.md)                            | `Git`      |   ✅   |
+| 23  | [Git 저장소 Fork](./challenges/day23.md)                                               | `Git`      |   ✅   |
+| 24  | [Storage 서버 내 Git 저장소 신규 브랜치 생성 및 소유권 보안](./challenges/day24.md)    | `Git`      |   ✅   |
+| 25  | [Git Merge Branches](./challenges/day25.md)                                            | `Git`      |   ✅   |
+| 26  | [Git Manage Remotes](./challenges/day26.md)                                            | `Git`      |   ✅   |
 
 ### Docker Containerization
 
