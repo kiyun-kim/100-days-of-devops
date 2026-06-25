@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 26 / 100일 (26%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 27 / 100일 (27%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -63,6 +63,7 @@
 | 24  | [Storage 서버 내 Git 저장소 신규 브랜치 생성 및 소유권 보안](./challenges/day24.md)    | `Git`      |   ✅   |
 | 25  | [Git Merge Branches](./challenges/day25.md)                                            | `Git`      |   ✅   |
 | 26  | [Git Manage Remotes](./challenges/day26.md)                                            | `Git`      |   ✅   |
+| 27  | [Git Revert Some Changes](./challenges/day27.md)                                       | `Git`      |   ✅   |
 
 ### Docker Containerization
 
