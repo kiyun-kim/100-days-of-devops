@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 27 / 100일 (27%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 28 / 100일 (28%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -64,6 +64,7 @@
 | 25  | [Git Merge Branches](./challenges/day25.md)                                            | `Git`      |   ✅   |
 | 26  | [Git Manage Remotes](./challenges/day26.md)                                            | `Git`      |   ✅   |
 | 27  | [Git Revert Some Changes](./challenges/day27.md)                                       | `Git`      |   ✅   |
+| 28  | [Git Cherry Pick](./challenges/day28.md)                                               | `Git`      |   ✅   |
 
 ### Docker Containerization
 
