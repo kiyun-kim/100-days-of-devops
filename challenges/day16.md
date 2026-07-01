@@ -5,10 +5,9 @@
 - **요구사항**: xFusionCorp Industries의 웹 트래픽 증가로 인한 성능 저하를 해결하기 위해 고가용성 스택(High Availability Stack)의 핵심인 로드밸런서(LBR) 서버를 구성한다.
 
 - **목표**:
-
-1. `stlb01` 서버에 Nginx 설치 및 활성화
-2. 메인 설정 파일 `/etc/nginx/nginx.conf`의 `http` 컨텍스트 내부에 `upstream` 풀을 정의하여 3대의 앱 서버(`포트 8087`) 연동
-3. 모든 앱 서버의 Apache 가동 상태를 유지한 채 LBR 프록시 패스(Proxy Pass) 연결 및 최종 라운드로빈 통신 무결성 검증
+  1. `stlb01` 서버에 Nginx 설치 및 활성화
+  2. 메인 설정 파일 `/etc/nginx/nginx.conf`의 `http` 컨텍스트 내부에 `upstream` 풀을 정의하여 3대의 앱 서버(`포트 8087`) 연동
+  3. 모든 앱 서버의 Apache 가동 상태를 유지한 채 LBR 프록시 패스(Proxy Pass) 연결 및 최종 라운드로빈 통신 무결성 검증
 
 ---
 
