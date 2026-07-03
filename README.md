@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 33 / 100일 (33%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 34 / 100일 (34%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -70,6 +70,7 @@
 | 31  | [Git Stash](./challenges/day31.md)                                                     | `Git`      |   ✅   |
 | 32  | [Git Rebase](./challenges/day32.md)                                                    | `Git`      |   ✅   |
 | 33  | [Resolve Git Merge Conflicts ](./challenges/day33.md)                                  | `Git`      |   ✅   |
+| 34  | [Git Hook ](./challenges/day34.md)                                                     | `Git`      |   ✅   |
 
 ### Docker Containerization
 
