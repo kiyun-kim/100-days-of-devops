@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 35 / 100일 (35%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 36 / 100일 (36%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -77,6 +77,7 @@
 | Day | Topic                                                                     | Tech Stack | Status |
 | :-: | :------------------------------------------------------------------------ | :--------- | :----: |
 | 35  | [Install Docker Packages and Start Docker Service](./challenges/day35.md) | `Docker`   |   ✅   |
+| 36  | [Deploy Nginx Container on Application Server](./challenges/day36.md)     | `Docker`   |   ✅   |
 
 ### Kubernetes Orchestration
 
