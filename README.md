@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 40 / 100일 (40%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 41 / 100일 (41%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -82,6 +82,7 @@
 | 38  | [Pull Docker Image](./challenges/day38.md)                                | `Docker`   |   ✅   |
 | 39  | [Create a Docker Image From Container](./challenges/day39.md)             | `Docker`   |   ✅   |
 | 40  | [Docker EXEC Operations](./challenges/day40.md)                           | `Docker`   |   ✅   |
+| 41  | [Write a Docker File](./challenges/day41.md)                              | `Docker`   |   ✅   |
 
 ### Kubernetes Orchestration
 
