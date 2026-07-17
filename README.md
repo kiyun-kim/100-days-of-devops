@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 44 / 100일 (44%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 45 / 100일 (454%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -74,18 +74,19 @@
 
 ### Docker Containerization
 
-| Day | Topic                                                                                      | Tech Stack | Status |
-| :-: | :----------------------------------------------------------------------------------------- | :--------- | :----: |
-| 35  | [Install Docker Packages and Start Docker Service](./challenges/day35.md)                  | `Docker`   |   ✅   |
-| 36  | [Deploy Nginx Container on Application Server](./challenges/day36.md)                      | `Docker`   |   ✅   |
-| 37  | [Copy File to Docker Container](./challenges/day37.md)                                     | `Docker`   |   ✅   |
-| 38  | [Pull Docker Image](./challenges/day38.md)                                                 | `Docker`   |   ✅   |
-| 39  | [Create a Docker Image From Container](./challenges/day39.md)                              | `Docker`   |   ✅   |
-| 40  | [Docker EXEC Operations](./challenges/day40.md)                                            | `Docker`   |   ✅   |
-| 41  | [Write a Docker File](./challenges/day41.md)                                               | `Docker`   |   ✅   |
-| 42  | [Create a Docker Network](./challenges/day42.md)                                           | `Docker`   |   ✅   |
-| 43  | [Nginx 기반 애플리케이션 컨테이너 배포 및 포트 매핑 구성](./challenges/day43.md)           | `Docker`   |   ✅   |
-| 44  | [Docker Compose를 활용한 Apache(httpd) 웹 서버 배포 및 볼륨 바인딩](./challenges/day44.md) | `Docker`   |   ✅   |
+| Day | Topic                                                                                        | Tech Stack | Status |
+| :-: | :------------------------------------------------------------------------------------------- | :--------- | :----: |
+| 35  | [Install Docker Packages and Start Docker Service](./challenges/day35.md)                    | `Docker`   |   ✅   |
+| 36  | [Deploy Nginx Container on Application Server](./challenges/day36.md)                        | `Docker`   |   ✅   |
+| 37  | [Copy File to Docker Container](./challenges/day37.md)                                       | `Docker`   |   ✅   |
+| 38  | [Pull Docker Image](./challenges/day38.md)                                                   | `Docker`   |   ✅   |
+| 39  | [Create a Docker Image From Container](./challenges/day39.md)                                | `Docker`   |   ✅   |
+| 40  | [Docker EXEC Operations](./challenges/day40.md)                                              | `Docker`   |   ✅   |
+| 41  | [Write a Docker File](./challenges/day41.md)                                                 | `Docker`   |   ✅   |
+| 42  | [Create a Docker Network](./challenges/day42.md)                                             | `Docker`   |   ✅   |
+| 43  | [Nginx 기반 애플리케이션 컨테이너 배포 및 포트 매핑 구성](./challenges/day43.md)             | `Docker`   |   ✅   |
+| 44  | [Docker Compose를 활용한 Apache(httpd) 웹 서버 배포 및 볼륨 바인딩](./challenges/day44.md)   | `Docker`   |   ✅   |
+| 45  | [Dockerfile 빌드 에러 트러블슈팅 및 Apache SSL 웹 서버 이미지 최적화](./challenges/day45.md) | `Docker`   |   ✅   |
 
 ### Kubernetes Orchestration
 
