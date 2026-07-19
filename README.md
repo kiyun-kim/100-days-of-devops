@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 46 / 100일 (46%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 47 / 100일 (47%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -88,6 +88,7 @@
 | 44  | [Docker Compose를 활용한 Apache(httpd) 웹 서버 배포 및 볼륨 바인딩](./challenges/day44.md)                  | `Docker`   |   ✅   |
 | 45  | [Dockerfile 빌드 에러 트러블슈팅 및 Apache SSL 웹 서버 이미지 최적화](./challenges/day45.md)                | `Docker`   |   ✅   |
 | 46  | [Docker Compose를 활용한 PHP-Apache 웹 서버 및 MariaDB 멀티 컨테이너 스택 연동 구축](./challenges/day46.md) | `Docker`   |   ✅   |
+| 47  | [Python 애플리케이션 도커라이징 및 호스트 포트 바인딩 배포](./challenges/day47.md)                          | `Docker`   |   ✅   |
 
 ### Kubernetes Orchestration
 
