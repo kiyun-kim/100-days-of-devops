@@ -92,6 +92,10 @@
 
 ### Kubernetes Orchestration
 
+| Day | Topic                                                                  | Tech Stack   | Status |
+| :-: | :--------------------------------------------------------------------- | :----------- | :----: |
+| 48  | [Kubernetes Pod 선언적 배포 및 메타데이터 구성](./challenges/day48.md) | `Kubernetes` |   ✅   |
+
 ### Jenkins CI/CD 파이프라인 자동화
 
 ### Ansible 구성 관리 (IaC)
