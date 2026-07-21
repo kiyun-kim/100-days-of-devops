@@ -92,9 +92,10 @@
 
 ### Kubernetes Orchestration
 
-| Day | Topic                                                                  | Tech Stack   | Status |
-| :-: | :--------------------------------------------------------------------- | :----------- | :----: |
-| 48  | [Kubernetes Pod 선언적 배포 및 메타데이터 구성](./challenges/day48.md) | `Kubernetes` |   ✅   |
+| Day | Topic                                                                            | Tech Stack   | Status |
+| :-: | :------------------------------------------------------------------------------- | :----------- | :----: |
+| 48  | [Kubernetes Pod 선언적 배포 및 메타데이터 구성](./challenges/day48.md)           | `Kubernetes` |   ✅   |
+| 49  | [Kubernetes Deployment 선언적 배포 및 Pod 오케스트레이션](./challenges/day49.md) | `Kubernetes` |   ✅   |
 
 ### Jenkins CI/CD 파이프라인 자동화
 
