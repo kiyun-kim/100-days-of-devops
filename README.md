@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 47 / 100일 (47%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 50 / 100일 (50%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -92,10 +92,11 @@
 
 ### Kubernetes Orchestration
 
-| Day | Topic                                                                            | Tech Stack   | Status |
-| :-: | :------------------------------------------------------------------------------- | :----------- | :----: |
-| 48  | [Kubernetes Pod 선언적 배포 및 메타데이터 구성](./challenges/day48.md)           | `Kubernetes` |   ✅   |
-| 49  | [Kubernetes Deployment 선언적 배포 및 Pod 오케스트레이션](./challenges/day49.md) | `Kubernetes` |   ✅   |
+| Day | Topic                                                                              | Tech Stack   | Status |
+| :-: | :--------------------------------------------------------------------------------- | :----------- | :----: |
+| 48  | [Kubernetes Pod 선언적 배포 및 메타데이터 구성](./challenges/day48.md)             | `Kubernetes` |   ✅   |
+| 49  | [Kubernetes Deployment 선언적 배포 및 Pod 오케스트레이션](./challenges/day49.md)   | `Kubernetes` |   ✅   |
+| 50  | [Kubernetes Pod 리소스 제한(Requests & Limits) 선언적 설정](./challenges/day50.md) | `Kubernetes` |   ✅   |
 
 ### Jenkins CI/CD 파이프라인 자동화
 
