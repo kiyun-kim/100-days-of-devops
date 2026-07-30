@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 52 / 100일 (52%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 53 / 100일 (53%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -99,6 +99,7 @@
 | 50  | [Kubernetes Pod 리소스 제한(Requests & Limits) 선언적 설정](./challenges/day50.md)                           | `Kubernetes` |   ✅   |
 | 51  | [Kubernetes Deployment 롤링 업데이트(Rolling Update)를 통한 애플리케이션 무중단 배포](./challenges/day51.md) | `Kubernetes` |   ✅   |
 | 52  | [Kubernetes Deployment 롤백(Rollback)을 통한 애플리케이션 복구](./challenges/day52.md)                       | `Kubernetes` |   ✅   |
+| 53  | [Resolve VolumeMounts Issue in Kubernetes](./challenges/day53.md)                                            | `Kubernetes` |   ✅   |
 
 ### Jenkins CI/CD 파이프라인 자동화
 
