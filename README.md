@@ -6,7 +6,7 @@
 
 ## 📊 챌린지 진행 현황판
 
-> **진행률: 54 / 100일 (54%)** · ✅ 완료 · ⏳ 예정
+> **진행률: 55 / 100일 (55%)** · ✅ 완료 · ⏳ 예정
 
 ### 사용자 및 보안 설정
 
@@ -101,6 +101,7 @@
 | 52  | [Kubernetes Deployment 롤백(Rollback)을 통한 애플리케이션 복구](./challenges/day52.md)                       | `Kubernetes` |   ✅   |
 | 53  | [Resolve VolumeMounts Issue in Kubernetes](./challenges/day53.md)                                            | `Kubernetes` |   ✅   |
 | 54  | [Kubernetes emptyDir 볼륨을 통한 다중 컨테이너 데이터 공유 환경 구축](./challenges/day54.md)                 | `Kubernetes` |   ✅   |
+| 55  | [Kubernetes native sidecar pattern을 활용한 로그 수집기 구현](./challenges/day55.md)                         | `Kubernetes` |   ✅   |
 
 ### Jenkins CI/CD 파이프라인 자동화
 
